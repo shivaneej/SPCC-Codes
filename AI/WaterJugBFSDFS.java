@@ -14,7 +14,7 @@ class Node
 		this.pid = pid; 
 	}
 }
-class WaterJugBFS
+class WaterJugBFSDFS
 {
 	public static Vector <Node> ss = new Vector<Node>();
 	public static Queue <Node> queue = new ArrayDeque<Node>();
