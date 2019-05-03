@@ -167,7 +167,7 @@ class WaterJugBFSDFS
 				{
 					System.out.print(a+" -> ");
 				}
-				System.exit(-1);
+				return;
 			}
 			for(Node x:ss)
 			{
@@ -195,7 +195,7 @@ class WaterJugBFSDFS
 				{
 					System.out.print(a+" -> ");
 				}
-				System.exit(-1);
+				return;
 			}
 			for(Node x:ss)
 			{
